@@ -1,0 +1,213 @@
+/* ================= RESET ================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Prevents layout issues */
+}
+
+/* ================= BODY ================= */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F0F8A4;
+    color: #333;
+}
+
+/* ================= HEADER ================= */
+.header {
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.main-title {
+    font-family: 'Pacifico', cursive;
+    font-size: 55px;
+    color: purple;
+}
+
+.subtitle {
+    font-size: 18px;
+    color: green;
+}
+
+/* ================= NAVBAR ================= */
+.navlinks {
+    margin-top: 20px;
+}
+
+.navlinks a {
+    text-decoration: none;
+    margin: 0 15px;
+    color: purple;
+    padding: 8px 15px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.navlinks a:hover,
+.navlinks a.active {
+    background-color: purple;
+    color: white;
+}
+
+/* ================= SECTION INTRO ================= */
+.welcome-section {
+    max-width: 900px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+/* ================= CATEGORY TITLE ================= */
+.Bestsellers {
+    background-color: purple;
+    color: yellow;
+    text-align: center;
+    padding: 15px;
+    margin: 40px 200px;
+    border-radius: 10px;
+}
+
+/* ================= CARD SCROLL ================= */
+.card-scroll {
+    overflow-x: auto; /* Horizontal scroll */
+    padding: 20px;
+}
+
+.card-container {
+    display: flex;
+    gap: 25px;
+}
+
+/* ================= CARD ================= */
+.card {
+    background-color: white;
+    width: 280px;
+    border-radius: 15px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
+}
+
+/* Hover pop-up effect */
+.card:hover {
+    transform: translateY(-10px);
+}
+
+/* Image styling */
+.card img {
+    width: 100%;
+    height: 180px;            /* Fixed height for uniform cards */
+    object-fit: cover;       /* Prevents image stretching */
+    border-radius: 12px;
+}
+
+/* Title */
+.card h3 {
+    margin: 12px 0 8px;
+    font-size: 18px;
+}
+
+/* Description */
+.card p {
+    font-size: 14px;
+    color: #555;
+}
+
+/* Price */
+.price {
+    display: inline-block;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    color: purple;
+}
+
+
+/* ================= CATEGORY TITLE ================= */
+.fresh-fruit-juice {
+    background-color: purple;
+    color: yellow;
+    text-align: center;
+    padding: 15px;
+    margin: 40px 200px;
+    border-radius: 10px;
+}
+
+
+
+
+
+/* ================= FOOTER ================= */
+.footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    font-size: 14px;
+    color: #555;
+}
+
+/* ================= CONTACT PAGE ================= */
+
+/* Contact section wrapper */
+.contact-section {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+/* Form container */
+.contact-form {
+    background-color: white;
+    padding: 30px;
+    width: 100%;
+    max-width: 500px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Form group */
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+/* Labels */
+.form-group label {
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+/* Inputs and textarea */
+.form-group input,
+.form-group textarea {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Focus effect */
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: purple;
+}
+
+/* Submit button */
+.submit-btn {
+    background-color: purple;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+/* Button hover effect */
+.submit-btn:hover {
+    background-color: #5e2b7a;
+}
